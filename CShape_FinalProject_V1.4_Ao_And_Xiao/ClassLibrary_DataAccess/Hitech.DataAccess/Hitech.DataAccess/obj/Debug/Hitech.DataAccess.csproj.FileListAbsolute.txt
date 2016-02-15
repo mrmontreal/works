@@ -1,0 +1,35 @@
+D:\test\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.csprojResolveAssemblyReference.cache
+D:\test\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.DataAccess.dll
+D:\test\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.DataAccess.pdb
+D:\test\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.Business.dll
+D:\test\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.Business.pdb
+D:\test\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.dll
+D:\test\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.pdb
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.DataAccess.dll
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.DataAccess.pdb
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.Business.dll
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.dll
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.pdb
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.DataAccess.dll
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.DataAccess.pdb
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.Business.dll
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.csprojResolveAssemblyReference.cache
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.dll
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.pdb
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.DataAccess.dll
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.DataAccess.pdb
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.Business.dll
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.dll
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.pdb
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.csprojResolveAssemblyReference.cache
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.csprojResolveAssemblyReference.cache
+D:\finalproject-hitech\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.DataAccess.dll
+D:\finalproject-hitech\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.DataAccess.pdb
+D:\finalproject-hitech\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.Business.dll
+D:\finalproject-hitech\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.Business.pdb
+D:\finalproject-hitech\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.csprojResolveAssemblyReference.cache
+D:\finalproject-hitech\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.dll
+D:\finalproject-hitech\Project\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\obj\Debug\Hitech.DataAccess.pdb

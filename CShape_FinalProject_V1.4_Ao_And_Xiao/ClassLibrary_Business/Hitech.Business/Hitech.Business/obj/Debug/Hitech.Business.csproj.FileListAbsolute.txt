@@ -1,0 +1,38 @@
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_Business1108\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.dll
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_Business1108\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_Business1108\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.dll
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_Business1108\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_Business1108\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.csprojResolveAssemblyReference.cache
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.dll
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.dll
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.DataAccess.dll
+D:\2015fall\c#\FinalProject\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.DataAccess.pdb
+D:\test\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.csprojResolveAssemblyReference.cache
+D:\test\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.dll
+D:\test\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.dll
+D:\test\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.pdb
+D:\test\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.DataAccess.pdb
+D:\test\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.dll
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.dll
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.DataAccess.dll
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.DataAccess.pdb
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject - 副本 - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.csprojResolveAssemblyReference.cache
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.dll
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.DataAccess.dll
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.dll
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.pdb
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.DataAccess.pdb
+D:\2015fall\c#\FinalProject - 副本\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.csprojResolveAssemblyReference.cache
+D:\finalproject-hitech\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.dll
+D:\finalproject-hitech\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.pdb
+D:\finalproject-hitech\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.DataAccess.dll
+D:\finalproject-hitech\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.DataAccess.pdb
+D:\finalproject-hitech\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.csprojResolveAssemblyReference.cache
+D:\finalproject-hitech\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.dll
+D:\finalproject-hitech\Project\ClassLibrary_Business\Hitech.Business\Hitech.Business\obj\Debug\Hitech.Business.pdb

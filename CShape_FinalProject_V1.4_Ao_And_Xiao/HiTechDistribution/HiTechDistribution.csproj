@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9D33077-DFA9-4039-903B-58D32C08170C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HiTechDistribution</RootNamespace>
+    <AssemblyName>HiTechDistribution</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EmployeeValidator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\EmployeeValidator.dll</HintPath>
+    </Reference>
+    <Reference Include="Hitech.Business, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ClassLibrary_Business\Hitech.Business\Hitech.Business\bin\Debug\Hitech.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Hitech.DataAccess, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ClassLibrary_DataAccess\Hitech.DataAccess\Hitech.DataAccess\bin\Debug\Hitech.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI\ClientGUI\FormClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ClientGUI\FormClient.Designer.cs">
+      <DependentUpon>FormClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EmployeeGUI\CheckEmpInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EmployeeGUI\CheckEmpInformation.Designer.cs">
+      <DependentUpon>CheckEmpInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Main\ChangeUserPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Main\ChangeUserPassword.Designer.cs">
+      <DependentUpon>ChangeUserPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Main\fmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Main\fmLogin.Designer.cs">
+      <DependentUpon>fmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Main\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Main\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\OrderGUI\FormAddOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\OrderGUI\FormAddOrder.Designer.cs">
+      <DependentUpon>FormAddOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\OrderGUI\FormListOfOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\OrderGUI\FormListOfOrder.Designer.cs">
+      <DependentUpon>FormListOfOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\OrderGUI\FormUpdateOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\OrderGUI\FormUpdateOrder.Designer.cs">
+      <DependentUpon>FormUpdateOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProductGUI\AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ProductGUI\AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProductGUI\CheckProductInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ProductGUI\CheckProductInformation.Designer.cs">
+      <DependentUpon>CheckProductInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProductGUI\ModProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ProductGUI\ModProduct.Designer.cs">
+      <DependentUpon>ModProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProductGUI\ModProductInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ProductGUI\ModProductInventory.Designer.cs">
+      <DependentUpon>ModProductInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProductGUI\SearchProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ProductGUI\SearchProduct.Designer.cs">
+      <DependentUpon>SearchProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UserGUI\CheckUserInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\UserGUI\CheckUserInformation.Designer.cs">
+      <DependentUpon>CheckUserInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Validator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\ClientGUI\FormClient.resx">
+      <DependentUpon>FormClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EmployeeGUI\CheckEmpInformation.resx">
+      <DependentUpon>CheckEmpInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Main\ChangeUserPassword.resx">
+      <DependentUpon>ChangeUserPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Main\fmLogin.resx">
+      <DependentUpon>fmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Main\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\OrderGUI\FormAddOrder.resx">
+      <DependentUpon>FormAddOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\OrderGUI\FormListOfOrder.resx">
+      <DependentUpon>FormListOfOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\OrderGUI\FormUpdateOrder.resx">
+      <DependentUpon>FormUpdateOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProductGUI\AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProductGUI\CheckProductInformation.resx">
+      <DependentUpon>CheckProductInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProductGUI\ModProduct.resx">
+      <DependentUpon>ModProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProductGUI\ModProductInventory.resx">
+      <DependentUpon>ModProductInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProductGUI\SearchProduct.resx">
+      <DependentUpon>SearchProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserGUI\CheckUserInformation.resx">
+      <DependentUpon>CheckUserInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
