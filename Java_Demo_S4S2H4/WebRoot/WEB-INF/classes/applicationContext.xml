@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-4.0.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+	<!-- 自动扫描所有注解该路径 -->  
+	<context:component-scan base-package="com.s4s2h4.*" />
+	
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName"
+			value="com.microsoft.sqlserver.jdbc.SQLServerDriver">
+		</property>
+		<property name="url"
+			value="jdbc:sqlserver://127.0.0.1;instanceName=test;DatabaseName=test">
+		</property>
+		<property name="username" value="sa"></property>
+		<property name="password" value="test"></property>
+	</bean>
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean"> 
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.SQLServerDialect
+				</prop>
+				<!--Spring 3.x 对 Hibernate 4.x 不提供 HibernateDaoSupport，所以在dao的实现层注入SessionFactory -->
+				  <prop key="hibernate.current_session_context_class">org.springframework.orm.hibernate4.SpringSessionContext</prop>
+				
+				<!-- <prop key="hibernate.current_session_context_class">thread</prop>  --> 
+				
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>com/s4s2h4/services/entity/Down.hbm.xml</value>
+				<value>com/s4s2h4/services/entity/Menu.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+	
+	 <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+    <!-- 事物通知 -->
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="sav*" propagation="REQUIRED" rollback-for="Exception"/> <!-- rollback-for回滚事物，果存在一个事务，则支持当前事务。如果没有事务则开启  -->
+			<tx:method name="del*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="add*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="upd*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="qry*" propagation="NOT_SUPPORTED" read-only="true"/> 
+			<tx:method name="*" propagation="NOT_SUPPORTED" read-only="true"/>
+		</tx:attributes>  
+	</tx:advice>
+	<!-- 事物切入 -->
+	<aop:config proxy-target-class="true">
+		<aop:pointcut id="cut"
+			expression="execution(* com.s4s2h4.services.impl.*.*(..))" />
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="cut" />
+	</aop:config>
+   
+	</beans>
